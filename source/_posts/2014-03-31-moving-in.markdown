@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Moving in"
+date: 2014-03-31 23:39:42 +1300
+comments: true
+categories: 
+---
+
+_So, moving in here_
