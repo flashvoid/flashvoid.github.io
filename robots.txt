@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://flashvoid.github.io/sitemap.xml 
