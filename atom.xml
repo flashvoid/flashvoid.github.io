@@ -4,7 +4,7 @@
   <title><![CDATA[Share and enjoy]]></title>
   <link href="http://flashvoid.github.io/atom.xml" rel="self"/>
   <link href="http://flashvoid.github.io/"/>
-  <updated>2014-08-14T08:30:19+00:00</updated>
+  <updated>2014-08-14T09:26:13+00:00</updated>
   <id>http://flashvoid.github.io/</id>
   <author>
     <name><![CDATA[Stas A. Kraev]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ubuntu Becoming Overconvinient]]></title>
+    <link href="http://flashvoid.github.io/blog/2014/08/14/ubuntu-becoming-overconvinient/"/>
+    <updated>2014-08-14T09:14:47+00:00</updated>
+    <id>http://flashvoid.github.io/blog/2014/08/14/ubuntu-becoming-overconvinient</id>
+    <content type="html"><![CDATA[<p><img src="http://d0663deda39a7a648958-4149197756af54ce7c119baa83523c1d.r61.cf1.rackcdn.com/ubuntu-term.gif" alt="debugit" /></p>
+
+<p>It was so much better when pasting weird characters into terminal resulted in some trash printed.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[OHAI vs Ec2 VPC Bug]]></title>
