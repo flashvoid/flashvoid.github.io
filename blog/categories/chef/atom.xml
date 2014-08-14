@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Share and enjoy]]></title>
-  <link href="http://flashvoid.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Chef | Share and enjoy]]></title>
+  <link href="http://flashvoid.github.io/blog/categories/chef/atom.xml" rel="self"/>
   <link href="http://flashvoid.github.io/"/>
   <updated>2014-08-14T08:30:19+00:00</updated>
   <id>http://flashvoid.github.io/</id>
@@ -20,21 +20,10 @@
     <id>http://flashvoid.github.io/blog/2014/08/14/ohai-vs-ec2-vpc-bug</id>
     <content type="html"><![CDATA[<p>Now, I hit that <a href="https://tickets.opscode.com/browse/OHAI-310">bug</a> twice already. It take some effort to pull the solution out from a head.</p>
 
-<p>solution: use ohai hints</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='bash'><span class='line'>touch /etc/chef/ohai/hints/ec2.json
-</span></code></pre></td></tr></table></div></figure>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Moving In]]></title>
-    <link href="http://flashvoid.github.io/blog/2014/03/31/moving-in/"/>
-    <updated>2014-03-31T10:39:42+00:00</updated>
-    <id>http://flashvoid.github.io/blog/2014/03/31/moving-in</id>
-    <content type="html"><![CDATA[<p><em>So, moving in here</em></p>
+<p>solution: use ohai hints
+<code>bash
+touch /etc/chef/ohai/hints/ec2.json
+</code></p>
 ]]></content>
   </entry>
   

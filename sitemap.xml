@@ -2,18 +2,22 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://flashvoid.github.io/blog/2014/03/31/moving-in/</loc>
-        <lastmod>2014-03-31T23:40:18+13:00</lastmod>
+        <lastmod>2014-03-31T10:40:18+00:00</lastmod>
     </url>
     <url>
-        <loc>http://flashvoid.github.io/</loc>
-        <lastmod>2014-03-31T23:40:18+13:00</lastmod>
+        <loc>http://flashvoid.github.io/blog/2014/08/14/ohai-vs-ec2-vpc-bug/</loc>
+        <lastmod>2014-08-14T08:28:30+00:00</lastmod>
     </url>
     <url>
         <loc>http://flashvoid.github.io/blog/archives/</loc>
-        <lastmod>2014-03-31T23:40:18+13:00</lastmod>
+        <lastmod>2014-08-14T08:28:30+00:00</lastmod>
     </url>
     <url>
         <loc>http://flashvoid.github.io/robots.txt</loc>
-        <lastmod>2014-03-31T16:58:15+13:00</lastmod>
+        <lastmod>2014-03-31T03:58:15+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://flashvoid.github.io/</loc>
+        <lastmod>2014-08-14T08:28:30+00:00</lastmod>
     </url>
 </urlset>
