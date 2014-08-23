@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Aws | Share and enjoy]]></title>
-  <link href="http://flashvoid.github.io/blog/categories/aws/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Awscli | Share and enjoy]]></title>
+  <link href="http://flashvoid.github.io/blog/categories/awscli/atom.xml" rel="self"/>
   <link href="http://flashvoid.github.io/"/>
   <updated>2014-08-23T00:03:09+00:00</updated>
   <id>http://flashvoid.github.io/</id>
@@ -29,20 +29,6 @@
 <p>Filter by tag AND value
 <code>bash
   aws ec2 describe-snapshots --filter Name=tag:Lineage,Values=syd-pg-prod
-</code></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OHAI vs Ec2 VPC Bug]]></title>
-    <link href="http://flashvoid.github.io/blog/2014/08/14/ohai-vs-ec2-vpc-bug/"/>
-    <updated>2014-08-14T08:07:48+00:00</updated>
-    <id>http://flashvoid.github.io/blog/2014/08/14/ohai-vs-ec2-vpc-bug</id>
-    <content type="html"><![CDATA[<p>Now, I hit that <a href="https://tickets.opscode.com/browse/OHAI-310">bug</a> twice already. It take some effort to pull the solution out from a head.</p>
-
-<p>solution: use ohai hints
-<code>bash
-touch /etc/chef/ohai/hints/ec2.json
 </code></p>
 ]]></content>
   </entry>

@@ -10,11 +10,15 @@
     </url>
     <url>
         <loc>http://flashvoid.github.io/blog/2014/08/14/ubuntu-becoming-overconvinient/</loc>
-        <lastmod>2014-08-14T09:26:10+00:00</lastmod>
+        <lastmod>2014-08-14T09:29:43+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://flashvoid.github.io/blog/2014/08/22/awscli-filter-by-tag/</loc>
+        <lastmod>2014-08-23T00:03:05+00:00</lastmod>
     </url>
     <url>
         <loc>http://flashvoid.github.io/blog/archives/</loc>
-        <lastmod>2014-08-14T09:26:10+00:00</lastmod>
+        <lastmod>2014-08-23T00:03:05+00:00</lastmod>
     </url>
     <url>
         <loc>http://flashvoid.github.io/robots.txt</loc>
@@ -22,6 +26,6 @@
     </url>
     <url>
         <loc>http://flashvoid.github.io/</loc>
-        <lastmod>2014-08-14T09:26:10+00:00</lastmod>
+        <lastmod>2014-08-23T00:03:05+00:00</lastmod>
     </url>
 </urlset>

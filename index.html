@@ -9,8 +9,8 @@
   <meta name="author" content="Stas A. Kraev">
 
   
-  <meta name="description" content=" It was so much better when pasting weird characters into terminal resulted in some trash printed.
-">
+  <meta name="description" content="AWS command line tool really missing some good documentation on how to filter by tag Filter by tag OR tag value 1
+2 aws ec2 describe-instances -- &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +72,58 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2014/08/22/awscli-filter-by-tag/">AWSCLI Filter by Tag</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-08-22T23:50:43+00:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><a href="" title="https://github.com/aws/aws-cli">AWS command line tool</a> really missing some good documentation on how to filter by tag</p>
+
+<p>Filter by tag OR tag value</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>  aws ec2 describe-instances --filters <span class="nv">Name</span><span class="o">=</span>tag-value,Values<span class="o">=</span>prod
+</span><span class='line'>  aws ec2 describe-instances --filters <span class="nv">Name</span><span class="o">=</span>tag-key,Values<span class="o">=</span>environment
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Filter by tag AND value</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>  aws ec2 describe-snapshots --filter <span class="nv">Name</span><span class="o">=</span>tag:Lineage,Values<span class="o">=</span>syd-pg-prod
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2014/08/14/ubuntu-becoming-overconvinient/">Ubuntu Becoming Overconvinient</a></h1>
     
     
@@ -97,7 +149,7 @@
 
   <div class="entry-content"><p><img src="http://d0663deda39a7a648958-4149197756af54ce7c119baa83523c1d.r61.cf1.rackcdn.com/ubuntu-term.gif" alt="debugit" /></p>
 
-<p>It was so much better when pasting weird characters into terminal resulted in some trash printed.</p>
+<p>It was so much better when pasting weird characters into terminal resulted in character code printed.</p>
 </div>
   
   
@@ -195,6 +247,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/08/22/awscli-filter-by-tag/">AWSCLI Filter by Tag</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/08/14/ubuntu-becoming-overconvinient/">Ubuntu Becoming Overconvinient</a>
